@@ -7,7 +7,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@haruo/tokens'
+} from '@haruo-ui/tokens'
 
 export const {
   styled,

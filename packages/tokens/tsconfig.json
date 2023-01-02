@@ -1,4 +1,4 @@
 {
-  "extends": "@haruo/ts-config/base.json",
+  "extends": "@haruo-ui/ts-config/base.json",
   "include": ["src"]
 }

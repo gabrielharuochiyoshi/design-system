@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Box, MultiStep, MultiStepProps } from '@haruo/react'
+import { Box, MultiStep, MultiStepProps } from '@haruo-ui/react'
 
 export default {
   title: 'Form/Multi Step',

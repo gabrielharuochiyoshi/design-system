@@ -1,6 +1,6 @@
 
 
 {
-  "extends": "@haruo/ts-config/react.json",
+  "extends": "@haruo-ui/ts-config/react.json",
   "include": ["src"]
 }

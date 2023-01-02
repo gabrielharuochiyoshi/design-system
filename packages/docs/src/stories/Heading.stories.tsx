@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Heading, HeadingProps } from '@haruo/react'
+import { Heading, HeadingProps } from '@haruo-ui/react'
 
 export default {
   title: 'Typography/Heading',

@@ -1,6 +1,6 @@
 {
-  "name": "@haruo/react",
-  "version": "1.0.0",
+  "name": "@haruo-ui/react",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@haruo/eslint-config": "*",
-    "@haruo/tokens": "*",
-    "@haruo/ts-config": "*",
+    "@haruo-ui/eslint-config": "*",
+    "@haruo-ui/tokens": "*",
+    "@haruo-ui/ts-config": "*",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "react": "^18.2.0",

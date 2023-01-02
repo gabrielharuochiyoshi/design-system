@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@haruo/react'
+import { Text, TextProps } from '@haruo-ui/react'
 
 export default {
   title: 'Typography/Text',

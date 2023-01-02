@@ -1,4 +1,4 @@
-import { colors } from '@haruo/tokens'
+import { colors } from '@haruo-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {
