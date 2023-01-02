@@ -55,6 +55,10 @@ export const colors = {
   secundary100: '#121921',
   secundary50: '#090C11',
 
+  test: '#fff',
+}
+
+export const error = {
   error950: '#FFE5E5',
   error900: '#FFCCCC',
   error800: '#FF9999',
@@ -66,6 +70,4 @@ export const colors = {
   error200: '#660000',
   error100: '#330000',
   error50: '#1A0000',
-
-  test: '#fff',
 }
