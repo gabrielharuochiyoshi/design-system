@@ -66,4 +66,6 @@ export const colors = {
   error200: '#660000',
   error100: '#330000',
   error50: '#1A0000',
+
+  test: '#fff',
 }
