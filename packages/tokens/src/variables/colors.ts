@@ -17,17 +17,17 @@ export const colors = {
 
   // Neutral-Variant
   neutralReference: '#7D868C',
-  neutral950: '#F1F2F3',
-  neutral900: '#E4E6E7',
-  neutral800: '#C9CDCF',
-  neutral700: '#AEB3B7',
-  neutral600: '#939A9F',
-  neutral500: '#7D868C',
-  neutral400: '#60676C',
-  neutral300: '#484D51',
-  neutral200: '#303436',
-  neutral100: '#0C0D0E',
-  neutral50: '#181A1B',
+  neutral950: '#E5F1FF',
+  neutral900: '#CCE4FF',
+  neutral800: '#99C9FF',
+  neutral700: '#66ADFF',
+  neutral600: '#3392FF',
+  neutral500: '#005FCC',
+  neutral400: '#0056B8',
+  neutral300: '#004799',
+  neutral200: '#003066',
+  neutral100: '#001833',
+  neutral50: '#000C1A',
 
   // Orange
   orangePrimary: '#FF7F2F',
