@@ -1,0 +1,6 @@
+
+
+{
+  "extends": "@haruo/ts-config/react.json",
+  "include": ["src"]
+}
