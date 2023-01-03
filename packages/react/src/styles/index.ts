@@ -1,6 +1,11 @@
 import { createStitches, defaultThemeMap } from '@stitches/react'
 import {
-  colors,
+  common,
+  error,
+  primary,
+  secondary,
+  gray,
+  orange,
   fonts,
   fontSizes,
   fontWeights,
@@ -26,7 +31,15 @@ export const {
   },
 
   theme: {
-    colors,
+    colors: {
+      ...common,
+      ...error,
+      ...primary,
+      ...secondary,
+      ...gray,
+      ...orange,
+    },
+
     fontSizes,
     fontWeights,
     fonts,

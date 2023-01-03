@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Button, ButtonProps } from '@haruo-ui/react'
+import { Box, Button, ButtonProps } from '@haruo-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
 export default {
@@ -37,7 +37,27 @@ export const Secondary: StoryObj<ButtonProps> = {
   args: {
     variant: 'secondary',
     children: 'Botão',
+    css: {
+      width: '$4',
+    },
   },
+
+  decorators: [
+    (Story) => {
+      return (
+        <Box
+          css={{
+            display: 'flex',
+            flexDirection: 'column',
+            backgroundColor: '$gray100',
+            width: '$30',
+          }}
+        >
+          {Story()}
+        </Box>
+      )
+    },
+  ],
 }
 
 export const Danger: StoryObj<ButtonProps> = {
@@ -61,6 +81,13 @@ export const WithIcon: StoryObj<ButtonProps> = {
         <ArrowRight weight="bold" />
       </>
     ),
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
   },
 }
 

@@ -3,7 +3,7 @@ import { ComponentProps } from 'react'
 
 export const Button = styled('button', {
   all: 'unset',
-  borderRadius: '$sm',
+  borderRadius: '$lg',
   padding: '0 $4',
   fontSize: '$sm',
   fontWeight: '$medium',
@@ -31,23 +31,24 @@ export const Button = styled('button', {
     variant: {
       primary: {
         color: '$white',
-        backgroundColor: '$orange600',
+        backgroundColor: '$green800',
 
         '&:not(:disabled):hover': {
-          background: '$orange400',
+          background: '$green600',
         },
 
         '&:disabled': {
-          backgroundColor: '$orange300',
+          backgroundColor: '$green900',
         },
       },
 
       secondary: {
-        color: '$gray100',
-        border: '2px solid $secundary400 ',
+        color: '$green950',
+        border: '2px solid $green950 ',
 
         '&:not(:disabled):hover': {
-          background: '$secundary400',
+          background: '$green100',
+          color: '$green910',
         },
 
         '&:disabled': {
@@ -57,7 +58,7 @@ export const Button = styled('button', {
 
       danger: {
         color: '$white',
-        backgroundColor: '$error500 ',
+        backgroundColor: '$error500',
 
         '&:not(:disabled):hover': {
           background: '$error300',
