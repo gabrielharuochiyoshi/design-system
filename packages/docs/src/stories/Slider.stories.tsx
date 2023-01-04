@@ -4,7 +4,9 @@ import { Box, Slider, SliderProps } from '@haruo-ui/react'
 export default {
   title: 'Form/Slider',
   component: Slider,
-  args: {},
+  args: {
+    size: 4,
+  },
   decorators: [
     (Story) => {
       return (
@@ -25,4 +27,6 @@ export default {
   ],
 } as Meta<SliderProps>
 
-export const Primary: StoryObj<SliderProps> = {}
+export const Primary: StoryObj<SliderProps> = {
+  args: {},
+}
