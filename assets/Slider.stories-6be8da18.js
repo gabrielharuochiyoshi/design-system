@@ -1,0 +1,2 @@
+import{S as o,B as t}from"./index-dc91d0a2.js";import{j as e}from"./jsx-runtime-da4cfb3b.js";import"./index-34e51894.js";import"./es.object.get-own-property-descriptor-64192e07.js";import"./index-75cd1920.js";const n={title:"Surfaces/Slider",component:o,args:{size:4},decorators:[r=>e(t,{as:"label",css:{display:"flex",flexDirection:"column",gap:"$2",backgroundColor:"$white",width:"max-content"},children:r()})]},c={args:{}},d=["Primary"];export{c as Primary,d as __namedExportsOrder,n as default};
+//# sourceMappingURL=Slider.stories-6be8da18.js.map
