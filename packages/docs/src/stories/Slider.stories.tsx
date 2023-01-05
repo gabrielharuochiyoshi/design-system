@@ -2,7 +2,7 @@ import type { StoryObj, Meta } from '@storybook/react'
 import { Box, Slider, SliderProps } from '@haruo-ui/react'
 
 export default {
-  title: 'Form/Slider',
+  title: 'Surfaces/Slider',
   component: Slider,
   args: {
     size: 4,

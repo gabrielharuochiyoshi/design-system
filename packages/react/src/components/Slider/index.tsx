@@ -15,4 +15,4 @@ export function Slider({ size, currentSlide = 1 }: SliderProps) {
   )
 }
 
-Slider.displayname = 'Slider'
+Slider.displayName = 'Slider'

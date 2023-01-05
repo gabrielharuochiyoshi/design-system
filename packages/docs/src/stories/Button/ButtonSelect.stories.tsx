@@ -3,7 +3,7 @@ import { Box, Button, ButtonProps } from '@haruo-ui/react'
 import { ArrowRight } from 'phosphor-react'
 
 export default {
-  title: 'Form/Button',
+  title: 'Form/Button/Button Select',
   component: Button,
   args: {
     children: 'Enviar',
